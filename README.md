@@ -45,9 +45,9 @@ First download the trained UDA model (MDD) weight file using the following steps
 
 a) Navigate to logs/VisDA2017/checkpoints/weights
 
-b) cat model_chunk_* > best.pth.gz
+b) Execute the command "cat model_chunk_* > best.pth.gz"
 
-c) gunzip best.pth.gz
+c) Execute the command "gunzip best.pth.gz"
 
 Place this unzipped .pth file in the directory logs/VisDA2017/checkpoints/
 
