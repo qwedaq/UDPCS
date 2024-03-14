@@ -41,6 +41,8 @@ data/
     ├── ...
 ```
 #### 5. 
+First download the trained UDA model (MDD) weight file from the link 
+Place this file in the directory logs/VisDA2017/checkpoints/
 Ensure you do not make any modifications to the "imagelist" folder. This folder contains paths to images across all domains.
 
 ### Train
