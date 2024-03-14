@@ -1,0 +1,10 @@
+torch==2.2.1
+torchvision==0.17.1
+numpy
+prettytable
+tqdm
+scikit-learn
+webcolors
+matplotlib
+opencv-python
+numba
