@@ -41,10 +41,18 @@ data/
     ├── ...
 ```
 #### 5. 
-First download the trained UDA model (MDD) weight file from the link 
-Place this file in the directory logs/VisDA2017/checkpoints/
-Ensure you do not make any modifications to the "imagelist" folder. This folder contains paths to images across all domains.
+First download the trained UDA model (MDD) weight file using the following steps.
 
+a) Navigate to logs/VisDA2017/checkpoints/weights
+
+b) cat model_chunk_* > best.pth.gz
+
+c) gunzip best.pth.gz
+
+Place this unzipped .pth file in the directory logs/VisDA2017/checkpoints/
+
+Ensure you do not make any modifications to the "imagelist" folder. This folder contains paths to images across all domains.
+### 6.
 ### Train
 
 - [x] UDPCS+MDD on `VisDA` dataset:
